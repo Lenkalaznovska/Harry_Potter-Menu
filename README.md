@@ -30,9 +30,8 @@ Harry Potter Webová Stránka je webová aplikace určená k prezentaci informac
 
 ## Struktura projektu
 
-- **index.html:** Hlavní HTML soubor stránky.
-- **style.css:** Stylování stránky.
-- **script.js:** Interaktivní prvky a animace.
-- **favicon/favicon.png:** Ikona používaná na webu.
-- **images/logo.png:** Logo stránky.
-- **images/background.webp:** Obrázek pozadí pro úvodní sekci.
+- `index.html`: Hlavní HTML soubor stránky.
+- `script.js`: Interaktivní prvky a animace.
+- `style.css`: Stylování stránky.
+- `images/`: Obrázky používané na webu.
+- `favicon/`: Ikony používané na webu.
