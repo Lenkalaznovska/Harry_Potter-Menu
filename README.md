@@ -34,4 +34,4 @@ Harry Potter Webová Stránka je webová aplikace určená k prezentaci informac
 - `script.js`: Interaktivní prvky a animace.
 - `style.css`: Stylování stránky.
 - `images/`: Obrázky používané na webu.
-- `favicon/`: Ikony používané na webu.
+- `favicon/`: Ikona používaná na webu.
