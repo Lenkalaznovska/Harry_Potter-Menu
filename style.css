@@ -1,0 +1,158 @@
+/* Globální proměnné */
+:root {
+  --nav-bg-color: rgba(44, 62, 80, 0.7);
+  --header-bg-color: rgba(9, 11, 20, 0.9);
+  --link-hover-color: gold;
+  --link-hover-bg: rgba(255, 223, 0, 0.3);
+  --link-sparkle-color: gold;
+  --font-family: "Poppins", sans-serif;
+  --font-size-large: 1.2em;
+  --header-height: 70px;
+  --menu-icon-size: 40px;
+  --menu-icon-margin-right: 30px;
+  --nav-max-height: 200px;
+  --nav-ul-margin: 10px 0;
+  --nav-li-margin-right: 20px;
+}
+
+/* Obecné */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--font-family);
+}
+
+/* Hlavička */
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: var(--header-bg-color);
+  height: var(--header-height);
+  justify-content: space-between;
+  padding: 0 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  position: relative;
+  z-index: 1000;
+  font-size: var(--font-size-large);
+}
+
+.logo img {
+  width: 200px;
+}
+
+/* Navigace */
+nav ul {
+  display: flex;
+  list-style-type: none;
+}
+
+nav li {
+  margin-right: var(--nav-li-margin-right);
+  position: relative;
+}
+
+nav li a {
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+  transition: color 0.3s ease-in-out;
+  position: relative;
+  z-index: 1;
+}
+
+nav li a:hover {
+  color: var(--link-hover-color);
+}
+
+nav li a::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: var(--link-hover-bg);
+  opacity: 0;
+  z-index: -1;
+  transition: opacity 0.3s ease-in-out;
+}
+
+nav li a:hover::after {
+  opacity: 1;
+  animation: sparkle 1s infinite;
+}
+
+@keyframes sparkle {
+  0% {
+    background: var(--link-hover-bg);
+    box-shadow: 0 0 5px var(--link-sparkle-color),
+      0 0 10px var(--link-sparkle-color), 0 0 15px var(--link-sparkle-color),
+      0 0 20px var(--link-sparkle-color);
+  }
+  50% {
+    background: rgba(255, 223, 0, 0.6);
+    box-shadow: 0 0 10px var(--link-sparkle-color),
+      0 0 20px var(--link-sparkle-color), 0 0 30px var(--link-sparkle-color),
+      0 0 40px var(--link-sparkle-color);
+  }
+  100% {
+    background: var(--link-hover-bg);
+    box-shadow: 0 0 5px var(--link-sparkle-color),
+      0 0 10px var(--link-sparkle-color), 0 0 15px var(--link-sparkle-color),
+      0 0 20px var(--link-sparkle-color);
+  }
+}
+
+.menu-icon {
+  display: none;
+  margin-right: var(--menu-icon-margin-right);
+  color: white;
+  font-size: var(--menu-icon-size);
+  cursor: pointer;
+}
+
+/* Úvodní sekce */
+.welcome {
+  background: url("images/background.webp") center center;
+  min-height: calc(100vh - var(--header-height));
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+/* Media Queries */
+@media (max-width: 600px) {
+  nav {
+    display: none;
+    position: absolute;
+    top: var(--header-height);
+    left: 0;
+    width: 100%;
+    background-color: var(--nav-bg-color);
+    transition: max-height 0.5s ease-in-out;
+    overflow: hidden;
+    max-height: 0;
+    font-size: var(--font-size-large);
+  }
+
+  nav.open {
+    display: block;
+    max-height: var(--nav-max-height);
+  }
+
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav li {
+    margin: var(--nav-ul-margin);
+  }
+
+  .menu-icon {
+    display: block;
+  }
+}
