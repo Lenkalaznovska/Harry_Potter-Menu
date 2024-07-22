@@ -1,4 +1,4 @@
-# Harry Potter Webová Stránka
+# Harry Potter - Menu
 
 Vítejte v repozitáři webové stránky Harry Potter - Menu. Tento projekt je jednoduchá webová stránka vytvořená za účelem prezentace informací o Harry Potterovi.
 
