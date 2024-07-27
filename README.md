@@ -1,6 +1,6 @@
 # Harry Potter - Menu
 
-Welcome to the repository of the Harry Potter - Menu website. This project is a simple website created to present information about Harry Potter. You can view the website here: [Harry Potter - Menu](https://lenkalaznovska.github.io/Harry_Potter-Menu/).
+Welcome to the repository of the Harry Potter - Menu website. This project is a simple website created to present information about Harry Potter. You can view the live version of the site [here](https://lenkalaznovska.github.io/Harry_Potter-Menu/).
 
 ## Contents
 
@@ -31,7 +31,7 @@ The Harry Potter Website is a web application designed to present information ab
 ## Project Structure
 
 - `index.html`: The main HTML file of the site.
-- `script.js`: Interactive elements and animations.
 - `style.css`: Styling of the site.
+- `script.js`: Interactive elements and animations.
 - `images/`: Images used on the site.
 - `favicon/`: Icon used on the site.
