@@ -1,6 +1,6 @@
 # Harry Potter - Menu
 
-Vítejte v repozitáři webové stránky Harry Potter - Menu. Tento projekt je jednoduchá webová stránka vytvořená za účelem prezentace informací o Harry Potterovi.
+Vítejte v repozitáři webové stránky Harry Potter - Menu. Toto menu si můžete prohlédnout zde: [Harry Potter - Menu](https://lenkalaznovska.github.io/Harry_Potter-Menu/).
 
 ## Obsah
 
