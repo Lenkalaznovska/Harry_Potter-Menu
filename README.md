@@ -1,37 +1,37 @@
 # Harry Potter - Menu
 
-Vítejte v repozitáři webové stránky Harry Potter - Menu. Toto menu si můžete prohlédnout zde: [Harry Potter - Menu](https://lenkalaznovska.github.io/Harry_Potter-Menu/).
+Welcome to the repository of the Harry Potter - Menu website. This project is a simple website created to present information about Harry Potter. You can view the website here: [Harry Potter - Menu](https://lenkalaznovska.github.io/Harry_Potter-Menu/).
 
-## Obsah
+## Contents
 
-1. [Popis](#popis)
-2. [Použité technologie](#použité-technologie)
-3. [Struktura projektu](#struktura-projektu)
+1. [Description](#description)
+2. [Technologies Used](#technologies-used)
+3. [Project Structure](#project-structure)
 
-## Popis
+## Description
 
-Harry Potter Webová Stránka je webová aplikace určená k prezentaci informací o Harry Potterovi. Na této webové stránce najdete:
+The Harry Potter Website is a web application designed to present information about Harry Potter. On this website, you will find:
 
-- **Navigační menu:** Uživatelé mohou navigovat mezi různými sekcemi stránky jako Domů, O nás a Kontakt.
-- **Responzivní design:** Stránka je optimalizovaná pro zobrazení na různých zařízeních včetně mobilních telefonů a tabletů.
-- **Animace a efekty:** Při navigaci jsou použity různé efekty a animace pro zlepšení uživatelského zážitku.
+- **Navigation Menu:** Users can navigate between different sections of the page such as Home, About Us, and Contact.
+- **Responsive Design:** The site is optimized for display on various devices, including mobile phones and tablets.
+- **Animations and Effects:** Various effects and animations are used during navigation to enhance the user experience.
 
-## Použité technologie
+## Technologies Used
 
 ### Frontend
 
-- **HTML5:** Struktura webové stránky.
-- **CSS3:** Stylování webové stránky.
-- **JavaScript:** Interaktivní prvky a animace.
+- **HTML5:** Structure of the website.
+- **CSS3:** Styling of the website.
+- **JavaScript:** Interactive elements and animations.
 
-### Vývojové nástroje
+### Development Tools
 
-- **Font Awesome:** Ikony používané na webové stránce.
+- **Font Awesome:** Icons used on the website.
 
-## Struktura projektu
+## Project Structure
 
-- `index.html`: Hlavní HTML soubor stránky.
-- `script.js`: Interaktivní prvky a animace.
-- `style.css`: Stylování stránky.
-- `images/`: Obrázky používané na webu.
-- `favicon/`: Ikona používaná na webu.
+- `index.html`: The main HTML file of the site.
+- `script.js`: Interactive elements and animations.
+- `style.css`: Styling of the site.
+- `images/`: Images used on the site.
+- `favicon/`: Icon used on the site.
